@@ -15,7 +15,7 @@ body, html {
 
 body {
   height: 2280px;
-  background: linear-gradient(0deg, #6A82FB 0%, #FC5C7D 40%, #Ffcccc 70%);
+  background: linear-gradient(0deg, #6A82FB 0%, #FC5C7D 35%, #Ffcccc 70%);
   overflow-x: hidden;
 }
 
@@ -69,7 +69,7 @@ body {
 
 .first {
    font-family: 'Poppins', sans-serif;
-   font-size: 24px;
+   font-size: 25px;
    color: #3f208a;
    text-align: center;
    line-height: 50px;
@@ -80,7 +80,7 @@ body {
 
 .second {
    font-family: 'Poppins', sans-serif;
-   font-size: 24px;
+   font-size: 25px;
    color: white;
    text-align: left;
    line-height: 50px;
@@ -91,7 +91,7 @@ body {
 
 .third {
    font-family: 'Poppins', sans-serif;
-   font-size: 24px;
+   font-size: 25px;
    color: white;
    text-align: left;
    line-height: 50px;
