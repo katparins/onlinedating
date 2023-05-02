@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Dating</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<audio controls autoplay loop>
+  <source src="cupid.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="cupidAudio" src="cupid.mp3" autoplay loop></audio>
+
+<video autoplay muted loop id="myVideo">
+	<source src="Bgvideo.mp4" type="video/mp4">
+</video>
+
+<video autoplay muted loop id="secondVideo" style="display:none;">
+	<source src="bgvid.mp4" type="video/mp4">
+</video>
+
+<h1 id="greetings">Hello and welcome!</h1>
+<h1 id="greetings2">Ready to explore the world of online dating and potentially find love?</h1>
+<h2 id="text">Before we begin, what name do you prefer to go by?</h2>
+
+<div class="text" id="inputBox">
+    <input id="nameInput" type="text">
+    <button class="button" onclick="generate()">Submit</button>
+</div>
+
+<div class="text" id="outputBox" style="display: none;">
+    <p id="outputParagraph"></p>
+</div>
+
+<div class="ethnicity" style="display:none;">	
+	<div class="group">
+    	<button class="race" onclick="questionButton()">Native American</button>
+    	<button class="race" onclick="questionButton()">Black/African Descent</button>
+    </div>
+
+    <div class="group">
+    	<button class="race" onclick="questionButton()">East Asian</button>
+    	<button class="race" onclick="questionButton()">Hispanic/Latino</button>
+    </div>
+
+    <div class="group">
+    	<button class="race" onclick="questionButton()">Middle Eastern</button>
+    	<button class="race" onclick="questionButton()">Pacific Islander</button>
+    </div>
+
+    <div class="group">
+    	<button class="race" onclick="questionButton()">South Asian</button>
+    	<button class="race" onclick="questionButton()">Southeast Asian</button>
+    </div>
+
+    <div class="group">
+    	<button class="race" onclick="questionButton()">White/Caucasian</button>
+    	<button class="race" onclick="questionButton()">Other</button>
+    </div>
+</div>
+
+<div class="question" style="display:none;">	
+    <button class="findout" onclick="window.location.href='info.html'">Learn more</button>
+</div>
+
+<div class="wait" style="display:none">
+	<h3>Wait a second...</h3>
+</div>
+
+<div class="racism" style="display:none;">
+	<p>Do ethnicity filters on dating apps reinforce <span style="color:mediumvioletred; font-weight:bold;">RACISM?</span></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

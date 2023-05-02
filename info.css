@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Cantata+One&family=Krona+One&family=Rock+Salt&display=swap');
+
+* {
+   box-sizing: border-box;
+}
+
+body, html {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  height: 2280px;
+  background: linear-gradient(0deg, #6A82FB 0%, #FC5C7D 40%, #Ffcccc 70%);
+  overflow-x: hidden;
+}
+
+#header {
+  font-family: 'Marcellus', serif;
+  font-size: 58px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 10px rebeccapurple;
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  margin: auto;
+}
+
+.black {
+  font-family: 'Rock Salt', cursive;
+  font-size: 52px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px black;
+  position: absolute;
+  top: 1050px;
+  width: 100%;
+  right: 210px;
+}
+
+.asian {
+  font-family: 'Rock Salt', cursive;
+  font-size: 52px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px darkred;
+  position: absolute;
+  top: 1240px;
+  width: 100%;
+  right: -50px;
+}
+
+.gif img {
+   display: block;
+   max-width: 32%;
+   height: auto;
+   position: absolute;
+   top: 200px;
+   left: 120px;
+   z-index: -1;
+}
+
+.first {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   color: #3f208a;
+   text-align: center;
+   line-height: 50px;
+   position: absolute;
+   top: 240px;
+   right:190px;
+}
+
+.second {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   color: white;
+   text-align: left;
+   line-height: 50px;
+   position: absolute;
+   top: 1490px;
+   left:150px;
+}
+
+.third {
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   color: white;
+   text-align: left;
+   line-height: 50px;
+   position: absolute;
+   top: 1670px;
+   left:150px;
+}
+
+.tinder img {
+   display: block;
+   max-width: 17%;
+   height: auto;
+   position: absolute;
+   top: 500px;
+   right: 220px;
+   z-index: -1;
+}
+
+.hinge img {
+   display: block;
+   max-width: 7%;
+   height: auto;
+   position: absolute;
+   top: 710px;
+   right: 665px;
+   z-index: -1;
+}
+
+.bumble img {
+   display: block;
+   max-width: 8%;
+   height: auto;
+   position: absolute;
+   top: 610px;
+   right: 470px;
+   border-radius: 30px;
+   z-index: -1;
+}
+
+.okcupid img {
+   display: block;
+   max-width: 8%;
+   height: auto;
+   position: absolute;
+   top: 810px;
+   right: 880px;
+   border-radius: 30px;
+   z-index: -1;
+}
+
+a {
+   color: hotpink;
+}
+
+#link {
+   color: #f5cfff;
+}
+
+.video {
+    display: block;
+    position: absolute;
+    top:1510px;
+    right:160px;
+}
+
+.ending {
+  font-family: 'Marcellus', serif;
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  text-shadow: 0px 0px 10px powderblue;
+  position: absolute;
+  top: 1980px;
+  width: 100%;
+  margin: auto;
+}
+
+#end {
+   color: white;
+   text-decoration: none;
+}

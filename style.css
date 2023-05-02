@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Tenor+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+ 	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	height: 100vh;
+    width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+    background-attachment: fixed;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#secondVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+#greetings {
+  font-family: 'Marcellus', serif;
+  font-size: 58px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 10px purple;
+  position: fixed;
+  top: 220px;
+  width: 100%;
+  margin: auto;
+}
+
+#greetings2 {
+  font-family: 'Marcellus', serif;
+  font-size: 38px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 20px purple;
+  position: fixed;
+  top: 330px;
+  width: 100%;
+  margin: auto;
+}
+
+h2 {
+	font-family: 'Tenor Sans', sans-serif;
+	font-size: 24px;
+	color: purple;
+	font-weight: bold;
+	text-align: center;
+	position: fixed;
+	top: 500px;
+	width: 100%;
+	margin: auto;
+}
+
+.button {
+	background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+	border-radius: 70px;
+	border-color: transparent;
+	margin-left: 20px;
+	margin-top: -32px;
+}
+
+#nameInput {
+	border-radius: 70px;
+	padding: 20px;
+	text-align: center;
+	color: deeppink;
+	border: 2px solid purple;
+	font-family: 'Tenor Sans', sans-serif;
+	margin-top: -32px;
+}
+
+input, button {
+  font-size: 1.4rem;
+}
+
+.text {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	top: 600px;
+	width: 100%;
+	margin: auto;
+}
+
+#outputParagraph {
+	font-family: 'Marcellus', serif;
+	text-align: center;
+	justify-content: center;
+	color: white;
+	font-size: 36px;
+	width: 100%;
+	margin: auto;
+	position: fixed;
+	top: 130px;
+}
+
+.ethnicity {
+  position: fixed;
+  top: 500px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.group {
+	display: flex;
+}
+
+.race {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 21px;
+  display: block;
+  margin-left: 40px;
+  margin-bottom: 25px;
+  width: 340px;
+  height: 75px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+} 
+
+.race:hover {
+  background-color: lightgrey;
+}
+
+.pink-text {
+  color: #f52a78;
+  font-weight: 500;
+}
+
+.wait {
+  font-family: 'Marcellus', serif;
+  font-size: 38px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 210px;
+  width: 100%;
+  margin: auto;
+}
+
+.racism {
+  font-family: 'Marcellus', serif;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 300px;
+  width: 100%;
+  margin: auto;
+}
+
+.question {
+  position: fixed;
+  top: 510px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.findout {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 22px;
+  display: block;
+  margin-left: 40px;
+  margin-bottom: 25px;
+  width: 270px;
+  height: 70px;
+  white-space: nowrap;
+  align-items: center;
+  margin: 0 auto;
+} 
+
+.findout:hover {
+  background-color: lightgrey;
+}
+
