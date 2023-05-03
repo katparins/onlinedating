@@ -14,7 +14,7 @@ body, html {
 }
 
 body {
-  height: 2260px;
+  height: 2290px;
   background: linear-gradient(0deg, #6A82FB 0%, #FC5C7D 28%, #Ffcccc 70%);
   overflow-x: hidden;
 }
@@ -167,7 +167,7 @@ a {
   color: white;
   text-shadow: 0px 0px 20px powderblue;
   position: absolute;
-  top: 1945px;
+  top: 1960px;
   width: 100%;
   margin: auto;
 }
@@ -183,7 +183,7 @@ a {
   cursor: pointer;
   font-size: 16px;
   position: absolute;
-  top: 2155px;
+  top: 2175px;
   right: 70px;
   width: 160px;
   height: 60px;
