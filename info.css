@@ -160,18 +160,14 @@ a {
 .ending {
   font-family: 'Marcellus', serif;
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 1px;
   text-align: center;
   line-height: 80px;
   color: white;
-  text-shadow: 0px 0px 10px powderblue;
+  text-shadow: 0px 0px 30px powderblue;
   position: absolute;
   top: 1980px;
   width: 100%;
   margin: auto;
-}
-
-#end {
-   color: white;
-   text-decoration: none;
 }
