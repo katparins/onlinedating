@@ -14,8 +14,8 @@ body, html {
 }
 
 body {
-  height: 2280px;
-  background: linear-gradient(0deg, #6A82FB 0%, #FC5C7D 30%, #Ffcccc 70%);
+  height: 2260px;
+  background: linear-gradient(0deg, #6A82FB 0%, #FC5C7D 28%, #Ffcccc 70%);
   overflow-x: hidden;
 }
 
@@ -153,21 +153,45 @@ a {
 .video {
     display: block;
     position: absolute;
-    top:1510px;
+    top:1505px;
     right:160px;
 }
 
 .ending {
   font-family: 'Marcellus', serif;
-  font-size: 48px;
+  font-size: 49px;
   font-weight: 600;
   letter-spacing: 1px;
   text-align: center;
-  line-height: 80px;
+  line-height: 85px;
   color: white;
-  text-shadow: 0px 0px 30px powderblue;
+  text-shadow: 0px 0px 20px powderblue;
   position: absolute;
-  top: 1980px;
+  top: 1945px;
   width: 100%;
   margin: auto;
+}
+
+.reference {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  top: 2155px;
+  right: 70px;
+  width: 160px;
+  height: 60px;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+} 
+
+.reference:hover {
+  background-color: lightgrey;
 }
